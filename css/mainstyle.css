@@ -30,25 +30,48 @@ body {
 
 p {
     font: "Roboto Light";
-    color: black;
+    color: whitesmoke;
 }
+/*
+grouping css info::after
 
+the genric groupings of listings presented on landing page
+*/
 .grouping{
     background-color: rgb(77, 77, 224);
     margin: auto;
     width: 80%;
     height: 250px;
-    overflow-x: scroll;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow-inline: auto;
 }
 
-.listing{
+.groupingTitleBar{
+    background-color: aquamarine;
+    margin: auto;
+    width: 80%;
+    height: 50px;
+}
+
+.groupingTitle{
+    background-color: blueviolet;
+    font-size: 10;
+    float: left;
+}
+
+.linkListing{
+    background-color: blueviolet;
+    float: right;
+}
+/*end of grouping css*/
+
+.listingCard{
     color:rgba(230, 230, 230, 0.8);
     background-color: black;
-    margin: auto;
+    margin:auto;
     width: 20%;
     min-width: 200px;
     height: 100%;
-    display: inline-block
+    float: left;
 }
-
-
